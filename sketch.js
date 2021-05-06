@@ -26,7 +26,7 @@ function setup() {
 	music.loop();
 
 	//create fairy sprite and add animation for fairy
-	fairy = createSprite(130,580,50,50);
+	fairy = createSprite(130,520,50,50);
 	fairy.addAnimation("ANIMATION",fairyAmt);
 	fairy.scale = 0.2;
 
